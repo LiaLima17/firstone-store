@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Header from "@/app/components/header";
-import Hero from "@/app/components/hero";
-import ProductCard from "@/app/components/productCard";
-import AIAssistantModal from "@/app/components/AiAssistantModal";
-import { PRODUCTS, Product } from "@/app/data/products";
+import Header from "../app/components/header";
+import Hero from "../app/components/hero";
+import ProductCard from "../app/components/productCard";
+import AIAssistantModal from "../app/components/AiAssistantModal";
+import { PRODUCTS, Product } from "../app/data/products";
 
 export default function Home() {
   const [cart, setCart] = useState<Product[]>([]);
